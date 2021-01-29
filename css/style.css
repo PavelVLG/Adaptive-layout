@@ -157,10 +157,7 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-.logo {
-}
-.logo__img {
-}
+
 .annotation__conteiner {
   flex-basis: 50%;
 }
@@ -175,8 +172,7 @@ body {
 .annotation-item {
   padding: 3% 3% 3% 3%;
 }
-.annotation__text {
-}
+
 .underline {
   text-decoration: underline;
 }
@@ -214,7 +210,7 @@ body {
     max-height: 56vw;
   }
 }
-/* ----------------section 2-------------------- */
+/* ----------------section 2 / advantages-------------------- */
 
 .advantages__bg {
   background: url("../img/svg/section2.svg");
@@ -230,10 +226,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.advantages__list {
-}
-.advantages__list--left {
-}
+
 .advantages__item-conteiner {
   display: flex;
   margin: 0 3% 0 3%;
@@ -263,8 +256,7 @@ body {
   padding-top: 25px;
   padding-bottom: 2em;
 }
-.buy__text {
-}
+
 .buy__text-item {
   margin: 0 auto;
   max-width: 94%;
@@ -302,10 +294,7 @@ body {
   margin-left: 1em;
   transition: all 500ms ease 0s;
 }
-.buy__png {
-}
-.buy__png-item {
-}
+
 .steps {
   display: flex;
 }
@@ -313,15 +302,11 @@ body {
 .steps__step {
   padding-bottom: 2em;
 }
-.steps__png {
-}
+
 .steps__png-item {
   max-width: 100%;
 }
-.steps_conteiner {
-}
-.steps__title {
-}
+
 .steps__title-item {
   color: #002776;
 }
@@ -356,7 +341,7 @@ color: #666666;
     min-height: calc(96px - 32 * (100vw / 1280));
   }
 }
-/* ----------------------------section 2-------------------------- */
+/* ----------------------------section 2 / fact  -------------------------- */
 .fact {
   background-color: #dddddd;
 }
@@ -367,8 +352,7 @@ color: #666666;
   background-position: bottom;
 }
 
-.fact-header {
-}
+
 .fact-header__title-text {
   max-width: 250px;
   margin: 0 auto;
@@ -454,7 +438,7 @@ color: #666666;
   }
 }
 
-/* ----------------------------------section 3------------------------------- */
+/* ----------------------------------section 3 / dial------------------------------- */
 .dial {
   margin: 0 auto;
   background-color: #ffffff;
@@ -491,8 +475,7 @@ color: #666666;
   max-width: 94%;
   margin: 0 auto;
 }
-.dial-footer {
-}
+
 .dial-footer__text {
   padding-bottom: 2em;
 }
@@ -507,7 +490,7 @@ color: #666666;
     padding-top: 1em;
   }
 }
-/* --------------------------------section 4 ------------------------------- */
+/* --------------------------------section 4 /questions ------------------------------- */
 .questions {
   background-color: #dddddd;
   padding-top: 25px;
@@ -524,9 +507,7 @@ color: #666666;
 .download-check {
   vertical-align: baseline;
 }
-.question__menu {
 
-}
 .questions__bg {
   background-image: url("../img/svg/g6.svg");
   background-repeat: no-repeat;
@@ -606,7 +587,7 @@ color: #666666;
     padding-top: 10px;
   }
 }
-/* ------------------conteyner 4------------------------- */
+/* ------------------conteyner 4 /option------------------------- */
 .option {
   background-color: #fafafa;
   display: flex;
@@ -654,14 +635,12 @@ color: #666666;
 .option__title {
   padding-top: 1em;
 }
-.text--blu-bold {
-}
+
 .option__subtitle {
   padding-top: 0.5em;
   font-size: 23px;
 }
-.subtitle {
-}
+
 .option--2 {
   display: flex;
 }
@@ -704,7 +683,7 @@ color: #666666;
     background-color: #fafafa;
   }
 }
-/* -----------------conteiner 5 -------------------------- */
+/* -----------------------------introducing -------------------------- */
 .introducing {
   background-color: #dddddd;
   padding-top: 2em;
@@ -727,8 +706,7 @@ color: #666666;
 .introducing__head {
   padding-top: 1em;
 }
-.introducing__logo {
-}
+
 .introducing__head-title {
   font-family: "Segoe UI Semibold";
   color: #000000;
@@ -872,7 +850,7 @@ color: #666666;
     flex-direction: column-reverse;
   }
 }
-/* ----------------------------conteiner 6-----------------------------------*/
+/* ----------------------------chat -----------------------------------*/
 .chat {
   background-color: #fafafa;
 }
@@ -895,7 +873,7 @@ color: #666666;
   padding-top: 3em;
   max-width: 1000px;
 }
-/* ----------------------------conteiner 7-----------------------------------*/
+/* ----------------------------reports-----------------------------------*/
 .reports {
   background-color: #ffffff;
 }
@@ -937,7 +915,7 @@ color: #666666;
 .reports__img {
   max-width: 1100px;
 }
-/* ----------------------------conteiner 8-----------------------------------*/
+/* ----------------------------tree-steps-----------------------------------*/
 .tree-steps {
   background: #f9f9f9;
 }
@@ -964,8 +942,7 @@ color: #666666;
   justify-content: center;
   align-items: center;
 }
-.tree-steps__block--1 {
-}
+
 .tree-steps__blu-block {
   min-height: 70px;
   padding: 0 1em 0 1em;
@@ -989,16 +966,14 @@ color: #666666;
   display: flex;
   padding-top: 1em;
 }
-.tree-steps__block--2 {
-}
-.tree-steps__block--3 {
-}
+
+
 .subtitle__block {
   display: flex;
   flex-direction: column;
   padding-top: 1em;
 }
-/* ---------------------------- conteiner 9-----------------------------------*/
+/* ---------------------------- otherness----------------------------------*/
 
 .border--bottom {
   border-bottom: 1px solid #6666662f;
@@ -1031,8 +1006,7 @@ color: #666666;
   padding-top: 1.5em;
   display: flex;
 }
-.otherness__text-conteiner {
-}
+
 .otherness__title {
   flex-basis: 40%;
   padding-top: 1.2em;
@@ -1045,8 +1019,7 @@ color: #666666;
   margin: 0 auto;
   max-width: 94%;
 }
-.subtitle {
-}
+
 .otherness__img {
   flex-basis: 60%;
 }
@@ -1059,7 +1032,7 @@ color: #666666;
     flex-direction: column;
   }
 }
-/* ---------------------conteiner 10 GRIDDD--------------------------------------- */
+/* ---------------------plus--------------------------------------- */
 .border--wite--bottom {
   border-bottom: 3px solid #ffffff;
 }
@@ -1088,19 +1061,17 @@ color: #666666;
 .plus__conteiner-items {
   padding-top: 1em;
 }
-.border--wite--rite {
-}
+
 .plus__icon {
   font-size: 40px;
 }
-.plus__title {
-}
+
 .plus__subtitle {
   margin: 0.5em;
   padding-top: 2em;
   font-size: 18px;
 }
-/* =============adaptive grid==================== */
+/* ---------------=adaptive grid---------------------------------------------== */
 
 @media only screen and (max-width: 800px) {
   .border--wite--bottom {
@@ -1119,7 +1090,7 @@ color: #666666;
     grid-template-columns: 1fr;
   }
 }
-/* =============conteyner 11==================== */
+/* ---------------=reviews---------------------------------------------== */
 .reviews {
   background-color: #fafafa;
 }
@@ -1137,8 +1108,7 @@ color: #666666;
   align-items: center;
   flex-direction: column;
 }
-.reviews__header {
-}
+
 .reviews__title {
   padding-top: 2.5em;
   max-width: 94%;
@@ -1150,18 +1120,16 @@ color: #666666;
   font-size: 23px;
   color: #002776;
 }
-.review__img {
-}
+
 .reviews__item-text {
   font-family: "Segoe UI Light";
   color: #002776;
 }
-/* ============================================ */
+/* ---------------------------------never-------------------------------------- */
 .never {
   background-color: #dddddd;
 }
-.never__conteiner {
-}
+
 .never__header {
   padding-top: 0.5em;
   margin: 0 auto;
@@ -1187,8 +1155,7 @@ color: #666666;
   color: #002776;
   font-family: "Segoe UI Semibold";
 }
-.never__content-column {
-}
+
 .never__flex {
   padding-top: 1em;
   max-width: 1100px;
@@ -1210,8 +1177,7 @@ color: #666666;
   font-size: 18px;
   
 }
-.subtitle {
-}
+
 .never__block--strike {
   padding: 0.4em;
   color: #002776;
@@ -1260,7 +1226,7 @@ color: #666666;
   border-radius: 30px;
   max-width: 550px;
 }
-/*===============adaptive==============*/
+/*------------------------------adaptive---------------==*/
 @media only screen and (max-width: 950px) {
   .never_resume-conteiner {
     flex-direction: column;
@@ -1284,7 +1250,7 @@ color: #666666;
     flex-direction: column;
   }
 }
-/* ==================new block================ */
+/* ---------------------------------------------==money-back------------------------------------------------------------== */
 .money-back {
   background-color: #fafafa;
 }
@@ -1319,7 +1285,7 @@ color: #666666;
   max-width: 94%;
   margin: 0 auto;
 }
-/* =================section====================== */
+/* ------------------------------warning------------------------------ */
 .warning {
   background-color: #ffffff;
 }
@@ -1397,8 +1363,7 @@ color: #666666;
 .warning_card-conteyner {
   display: flex;
 }
-.card__column {
-}
+
 .warning__card {
   background-color: #ffffff;
   font-size: 18px;
@@ -1464,7 +1429,7 @@ color: #666666;
   align-items: center;
   min-width: 120px;
 }
-/* =============================================== */
+/* ------------------------------------------------------------------------------------------== */
 
 @media only screen and (max-width: 570px) {
   .warning__flex {
@@ -1481,7 +1446,7 @@ color: #666666;
     flex-direction: column;
   }
 }
-/* ================================================= */
+/* ------------------------------------------------------------= */
 .footer {
   background-color: #dddddd;
 }
@@ -1515,6 +1480,6 @@ color: #666666;
   font-size: 13px;
   color: #666666;
 }
-/* ============================= */
+/* --------------------------------------------- */
 @media only screen and (max-width: 430px) {
 }
