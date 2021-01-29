@@ -544,7 +544,7 @@ color: #666666;
   align-items: center;
 }
 .qustion__text {
-  padding: 0 0 1.5em 0;
+  padding: 0 0.5em 0.5em 0.5em;
   max-width: 590px;
   color: #002776;
   background-color: #ffffff;
