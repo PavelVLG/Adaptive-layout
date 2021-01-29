@@ -729,6 +729,77 @@ color: #666666;
   align-items: center;
   max-width: 1200px;
 }
+.analis {
+  padding-top: 1.5em;
+  margin: 0 auto;
+  max-width: 1270px;
+}
+.analis__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.analis__item {
+  max-width: 98%;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.analis__item--au {
+  border-bottom: 10px solid #0d887c;
+  padding-bottom: 5px;
+}
+.analis__item--ca {
+  border-bottom: 10px solid #c15269;
+  padding-bottom: 5px;
+}
+
+.analis__title-img--au {
+  background: url("../img/svg/flag_au.svg");
+  background-size: cover;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+.analis__title-img--ca {
+  background: url("../img/svg/flag_ca.svg");
+  background-size: cover;
+  width: 150px;
+ height: 100px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 660px) {
+  .analis__flex {
+    flex-direction: column;
+  }
+.analis__item--au:hover {
+  background: url("../img/svg/Australia_states_blank.svg");
+  background-size: cover;
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+}
+.analis__item--ca:hover {
+  background: url("../img/svg/Canada_blank_map.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.analis__title {
+  font-family: "Segoe UI Semibold";
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.analis__subtitle {
+  line-height: 1.5em;
+}
+
+.analis__title--small {
+  font-family: "Segoe UI Semibold";
+  font-size: 23px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .introducing__column {
   display: flex;
   flex-direction: column;
