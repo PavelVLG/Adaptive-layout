@@ -996,7 +996,7 @@ color: #666666;
 .subtitle__block {
   display: flex;
   flex-direction: column;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 /* ---------------------------- conteiner 9-----------------------------------*/
 
@@ -1163,7 +1163,7 @@ color: #666666;
 .never__conteiner {
 }
 .never__header {
-  padding-top: 1.5em;
+  padding-top: 0.5em;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
