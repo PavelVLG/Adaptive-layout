@@ -47,6 +47,10 @@ textarea {
 }
 input::-ms-clear {
   display: none;
+ 
+}
+input[type=checkbox] {
+  transform: scale(1.5);
 }
 button {
   cursor: pointer;
@@ -213,12 +217,18 @@ body {
 /* ----------------section 2 / advantages-------------------- */
 
 .advantages__bg {
+  
   background: url("../img/svg/section2.svg");
   background-size: 100% 120px;
   inset-block: inherit;
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
+.advantages{
+  background-color: #ffffff;
+}
+
 
 .advantages__item {
   margin: 0 auto;
@@ -539,6 +549,7 @@ color: #666666;
   margin: 0 auto;
 }
 .check {
+  margin: 0;
   width: 30px;
   height: 30px;
 }
@@ -1486,4 +1497,7 @@ margin: 0 auto;
 }
 /* --------------------------------------------- */
 @media only screen and (max-width: 430px) {
+}
+html{
+  background-color: #000000;
 }
