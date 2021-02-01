@@ -98,7 +98,7 @@ body {
 .wrapper {
   font-family: "Segoe UI Light";
   margin: 0% auto;
-  max-width: 1350px;
+  max-width:  98vw;
 }
 .subtitle {
   font-size: calc(24px - 6 * (100vw / 1280));
@@ -1464,6 +1464,8 @@ margin: 0 auto;
 /* ------------------------------------------------------------= */
 .footer {
   background-color: #dddddd;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .footer__conteiner {
