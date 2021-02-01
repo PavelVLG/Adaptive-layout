@@ -219,7 +219,7 @@ body {
 .advantages__bg {
   
   background: url("../img/svg/section2.svg");
-  background-size: 100% 120px;
+  background-size: 100vw 120px;
   inset-block: inherit;
   background-repeat: no-repeat;
   background-position: bottom;
