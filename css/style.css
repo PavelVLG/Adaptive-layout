@@ -194,6 +194,10 @@ body {
 .header__video {
   padding-top: 1.5em;
 }
+.logo__img{
+  max-height: 100px;
+}
+
 
 /*-------------- adaptive section 1--------------*/
 @media only screen and (max-width: 1000px) {
@@ -1031,12 +1035,15 @@ margin: 0 auto;
 .otherness__block {
   padding-top: 1.5em;
   display: flex;
+
 }
 
 .otherness__title {
   flex-basis: 40%;
   padding-top: 1.2em;
   text-align: left;
+  max-width: 94%;
+ 
 }
 .otherness__subtitle {
   padding-top: 2em;
@@ -1260,6 +1267,7 @@ margin: 0 auto;
   .never-footer__img {
     display: none;
   }
+  .never__bloc-check
 }
 
   
@@ -1268,7 +1276,7 @@ margin: 0 auto;
     max-width: 94%;
   }
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 380px) {
   .never__row {
     flex-direction: column;
   }
