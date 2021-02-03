@@ -205,7 +205,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 0 1vw 0 1wh;
+    padding: 0 1vw 0 1vh;
   }
 
   .header__top-inner {
@@ -224,7 +224,7 @@ body {
   
   background: url("../img/svg/section2.svg");
   background-size: 100vw 120px;
-  inset-block: inherit;
+ 
   background-repeat: no-repeat;
   background-position: bottom;
 }
